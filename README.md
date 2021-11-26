@@ -1,7 +1,10 @@
 # satisfactory-checker-webservice
-A nodejs express web api service wrapped around the SF-Tools\sfcheck.py script.
+A nodejs expressjs web api service wrapped around [dopeghoti\SF-Tools](https://github.com/dopeghoti/SF-Tools)\sfcheck.py package
 
-# How-to use
+# Intended Purpose
+Is to be ran on the localhost only, and called using another service that has authentication mechanisims built-in, i.e; a next.js web app.
+
+## How-to use
 
 1. clone this repository `git@github.com:mikedevita/satisfactory-checker-webservice.git`
 2. cd into the directory and install nodejs packages (expressjs) `cd satisfactory-checker-webservice && npm i`
